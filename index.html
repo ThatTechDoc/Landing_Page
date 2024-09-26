@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="landingpage.css">
+   <style>
+
+   </style>
+</head>
+<body>
+    <!-- Using the header and nav tags as my box container as they're both blocl elements to reduce the use of divs -->
+    <header>
+        <nav>
+            <h2><a a="" href="#">Febadora Casa</a></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="headerbody">
+            <div class="hero-text">
+                <h1>Unisex clothing brand</h1>
+                <p>A bold, unisex Nigerian fashion blending tradition and modern style.</p>
+                <button>Contact us</button>
+            </div>
+            <div class="image">
+                <img src="images/header_img2.jpg" alt="A sewing maching">
+            </div>
+        </div>
+    </header>
+
+    <!-- This is the main body block divided into three boxes services, testimonial, and action. They're all in turn divided into two major boxes each -->
+    <div class="mainbody">
+        <!-- First body block: its 2nd sub-block is divided into 4 to house an image-text block pair each i.e there's a  main-box that's in turn divided to contain this pair -->
+        <div id="services" class="services">
+            <h3>We offer:</h3>
+            <div class="container">
+                <div class="item">
+                    <div class="image">
+                        <img src="images/img1.jpg" alt=" Bridal mood-board"/>
+                    </div>
+                    <h4>Bridal services</h4>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="images/img2.jpg" alt=" Bridal mood-board"/>
+                    </div>
+                    <h4>Unisex bespoke</h4>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="images/img3.jpg" alt=" Bridal mood-board"/>
+                    </div>
+                    <h4>Unisex RTW</h4>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="images/img4.jpg" alt=" Bridal mood-board"/>
+                    </div>
+                    <h4>Training</h4>
+                </div>
+            </div>
+        </div>
+        <!-- The sencond body block body-->
+        <div class="testimonial">
+            <p>"Shopping at Febadora has completely transformed my wardrobe! The quality of the clothes is exceptional. From elegant dresses to casual wear, I've found everything I need in one place.</p>
+            <h4>Mrs O, bride </h4>
+        </div>
+        <!-- The last body block: its first sub-block is divided into 2 to house separate action texts-->
+        <div class="action">
+            <div class="text">
+                <h3>Elevate your style with our latest collection!</h3>
+                <p>Shop now for exclusive designs and unmatched quality. Don't miss out—step into fashion with confidence today!</p>
+            </div>
+            <div class="botton">
+                <button>Shop now</button>
+            </div>
+        </div>
+    </div>
+    <footer>ThatTechDoc &copy; 2024</footer>
+</body>
+</html>
